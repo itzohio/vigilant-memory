@@ -23,7 +23,7 @@
 #>
 param(
     # Raw base URL of the folder holding the two DLLs. Swap in your own repo.
-    [string]$Base = 'https://raw.githubusercontent.com/CHANGE_ME/CHANGE_ME/main/dist',
+    [string]$Base = 'https://raw.githubusercontent.com/itzohio/vigilant-memory/main',
 
     # Local folder to read the two DLLs from instead of downloading. Dev only.
     [string]$Local,
